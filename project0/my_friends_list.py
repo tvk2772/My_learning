@@ -3,8 +3,6 @@ key = surname
 information = tuple(name,birthday,living city, living country)"""
 
 friend_list = {}
-new_friend = ()
-surname = ''
 
 def create_new_friend():
     
@@ -29,5 +27,6 @@ def add_new_friend(friend_list):
         else:
             friend_list[res[0]]=res[1]
             
+## if __name__ == '__main__':
 add_new_friend(friend_list)
 print(friend_list)
